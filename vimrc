@@ -1,6 +1,16 @@
 set nocompatible
+set backspace=indent,eol,start
+set autoindent
+set history=50
+set ruler
+set showcmd
+set incsearch
 
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
-autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
+filetype plugin indent on
+
+if &t_Co > 2 || has("gui_running")
+    syntax on
+    set hlsearch
+endif
 
 colorscheme desert
