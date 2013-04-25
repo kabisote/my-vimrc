@@ -1,3 +1,5 @@
+execute pathogen#infect() "install plugins using pathogen
+
 set nocompatible "make vim behave in a more useful way
 
 set nobackup nowritebackup "don't make backups
