@@ -15,11 +15,11 @@ set autoindent "copy indent from current line when starting a new line
 set backspace=indent,eol,start "backspace over autoindent, line breaks and the start of insert
 
 syntax enable "enable syntax highlighting
+set background=dark
+colorscheme solarized "load color scheme
 
 set hlsearch "when there is a previous search pattern, highlight all its matches
 set incsearch "while typing a search command, show where the pattern, as it was typed so far, matches.
-
-set background=dark
 
 set ruler "show the line and column number of the cursor position, separated by a comma
 
@@ -27,5 +27,3 @@ set showcmd "show partial command
 
 autocmd FileType text setlocal textwidth=78 "prevent lines of plain text to get longer than 78 characters
 autocmd FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4 "set tabs and indentation length for python files
-
-colorscheme desert "load color scheme
