@@ -1,4 +1,5 @@
-execute pathogen#infect() "install plugins using pathogen
+"load plugins using pathogen
+execute pathogen#infect()
 
 set nocompatible "make vim behave in a more useful way
 
