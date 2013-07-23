@@ -21,6 +21,9 @@ colorscheme desert "Load color scheme.
 
 set linebreak "Wrap long lines at a character in 'breakat' rather than at the last character that fits on the screen.
 
+set ignorecase "Ignore case in search patterns.
+set smartcase "Override the 'ignorecase' option if the search pattern contains upper case characters.
+
 set hlsearch "When there is a previous search pattern, highlight all its matches.
 set incsearch "While typing a search command, show where the pattern, as it was typed so far, matches.
 
