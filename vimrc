@@ -29,7 +29,6 @@ set ruler "Show the line and column number of the cursor position, separated by 
 set showcmd "Show partial command.
 
 set autoread "When a file has been detected to have been changed outside of Vim and it hasn not been changed inside of Vim, automatically read it again.
-<<<<<<< HEAD
 
 set virtualedit=all "Allow cursor to be positioned where there is no actual character.
 
@@ -39,15 +38,3 @@ set hidden "A buffer is hidden when it is abandoned.
 
 autocmd FileType text setlocal textwidth=78 "Prevent lines of plain text to get longer than 78 characters.
 autocmd FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4 "Set tabs and indentation length for python files.
-=======
-
-set virtualedit=all "Allow cursor to be positioned where there is no actual character.
-
-set history=350 "A history of ':' commands, and a history of previous search patterns are remembered.
-
-set hidden "A buffer is hidden when it is abandoned.
-
-autocmd FileType text setlocal textwidth=78 "Prevent lines of plain text to get longer than 78 characters.
-autocmd FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4 "Set tabs and indentation length for python files.
-
->>>>>>> 7d043688363a438be4298ea89a127f17fc7369aa
